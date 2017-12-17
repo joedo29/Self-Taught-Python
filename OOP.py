@@ -19,7 +19,7 @@ class Dog(object):
 sam = Dog(breed='Lab') # here we pass the attribute 'Lab' to a dog named 'sam'
 print(sam.breed) # calling breed of sam will return its attribute 'Lab'
 
-frank = Dog(breed='Huskie')
+frank = Dog(breed='Huskie') # or we can say frank = Dog('Huskie')
 print(frank.breed)
 
 # In Python there are also 'Class Object Attributes'. These Class Object Attributes are the same for any instance of the class.
@@ -55,6 +55,10 @@ class Circle(object):
     def area(self):
         return self.radius * self.radius * Circle.pi
 
+    # Perimeter method
+    def perimeter(self):
+        return 2 * Circle.pi * self.radius
+
     # Method for resetting (called setter in Java or C++) radius
     def setRadius(self, radius):
         self.radius = radius
@@ -68,6 +72,7 @@ c = Circle()
 c.setRadius(3) # set radius = 3
 print('Radius is: ', c.getRadius())
 print('Area is: ', c.area())
+print("Perimeter is: ", c.perimeter())
 
 
 #INHERITANCE
@@ -127,3 +132,5 @@ b = Book("Intro to Python", "Joe Do", 199)
 print(b)
 print(len(b))
 del b
+
+# OOP HOMEWORKS

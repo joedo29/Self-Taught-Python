@@ -1,5 +1,7 @@
 # Author: Joe Do
 # Errors and Exceptions in Python
+# Everything about Errors and Exceptions in Python here:
+# https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 
 try:
     2 + 's'
