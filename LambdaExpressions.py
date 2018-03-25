@@ -24,5 +24,5 @@ reverseString = lambda r: r[::-1]
 print(reverseString("Hello"))
 
 # Lambda can accept more than one function
-addNumbers = lambda a, b: a** b
+addNumbers = lambda a, b: a ** b
 print(addNumbers(2, 2))
